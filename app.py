@@ -20,7 +20,7 @@ def predict():
         print("Received Data:", data)  # Debugging
 
         # Define expected features
-        feature_names = [
+        feature_names = [            
             "year_of_manufacture", "kms_driven", "fuel_type_Diesel",
             "fuel_type_Electric", "fuel_type_Hybrid", "fuel_type_LPG",
             "fuel_type_Petrol", "city_Ambattur", "city_Bangalore",
